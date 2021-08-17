@@ -1,6 +1,6 @@
 :root{
-    --red:#E50914;
-    --black: #141414;
+    --blue:#e0e2db;
+    --green:#00296b;
 }
 
 * {
@@ -10,9 +10,15 @@
     object-fit: cover
 }
 body {
-    background: var(--black) ;
+    background: var(--green) ;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: #e0e2db;
+}
+header{
+    border-bottom: 4px solid var(--blue);
+    border-top: 3px solid var(--blue);
+    border-bottom-style:ridge;
+    border-top-style:ridge;
 }
 header .container{
     display: flex;
@@ -23,7 +29,7 @@ header .container{
 
 header .logo {
     margin-left:15px;
-    color: var(--red);
+    color: var(--blue);
     font-family:Arial, Helvetica, sans-serif;
     font-size:50px;
 
@@ -31,7 +37,7 @@ header .logo {
 
 header nav a {
     text-decoration: none;
-    color: #AAA;
+    color: var(--blue);
     margin-right: 25px;
 }
 header nav a:hover{
@@ -41,21 +47,21 @@ header nav a:hover{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/Imagens/fundo.jpg");
     height: 600px;  
-    background-size: cover;
+    background-size:cover;
     background-position-y: 35%;   
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: bottom;
     align-items: flex-start;
     margin-bottom: 10px;
 }
 .principal .descricao{
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 40px;
 
 }
 .titulo {
-    margin-top: 15% ;
+    margin-top: 25% ;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -91,4 +97,9 @@ header nav a:hover{
 }
 .carrossel {
     margin-top: 5px;
+    ;
+}
+.logo i {
+    padding: 5px;
+    margin-top:2px;
 }
