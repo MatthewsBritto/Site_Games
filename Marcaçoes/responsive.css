@@ -1,0 +1,41 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 190px;
+        height: 60px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width:50%;
+    }
+}
+
+@media screen and (max-width:411px) {
+    .principal{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(/Imagens/poster.jpg);
+
+        color: rgba(0, 0, 0, 0);
+    }
+    .botao{
+        margin-top: 5px;
+        width: 120px;
+        height: 90px;
+        color: black;
+        padding: 15px 10px;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .principal{
+       height: 700 ;
+    }
+}
