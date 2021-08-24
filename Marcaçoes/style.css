@@ -41,7 +41,8 @@ header nav a {
     margin-right: 25px;
 }
 header nav a:hover{
-    color: #fff;
+    color:rgba(0,0,0,.50);
+    font-size: 18px;
 }
 .principal{
     font-size: 16px;
